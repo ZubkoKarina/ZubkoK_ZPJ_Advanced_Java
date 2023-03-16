@@ -1,0 +1,128 @@
+2023.03.16 22:20:02 INFO  Started: Metals version 0.11.11 in workspace '/home/karina/Документы/Java_my_rep./Labolatorium_1' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/karina/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.16 22:20:05 INFO  time: initialize in 2.46s
+2023.03.16 22:20:08 WARN  Build server is not auto-connectable.
+2023.03.16 22:20:08 WARN  no build tool detected in workspace '/home/karina/Документы/Java_my_rep./Labolatorium_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.16 22:20:08 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java
+2023.03.16 22:20:10 WARN  Running javac-semanticdb failed for file:///home/karina/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Java_my_rep./Labolatorium_1/lesson_1.java. Output:
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:1: error: class, interface, enum, or record expected
+using System;
+^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:2: error: class, interface, enum, or record expected
+using System.Linq;
+^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:4: error: '{' expected
+public class Complex : IComparable<Complex>
+                    ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:4: error: class, interface, enum, or record expected
+public class Complex : IComparable<Complex>
+                                  ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:6: error: class, interface, enum, or record expected
+    public int CompareTo(Complex other)
+           ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:12: error: '{' expected
+public class Rational : IComparable<Rational>
+                     ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:12: error: class, interface, enum, or record expected
+public class Rational : IComparable<Rational>
+                                   ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:14: error: class, interface, enum, or record expected
+    public int CompareTo(Rational other)
+           ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:20: error: '{' expected
+public class Point : IComparable<Point>
+                  ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:20: error: class, interface, enum, or record expected
+public class Point : IComparable<Point>
+                                ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:22: error: class, interface, enum, or record expected
+    public int CompareTo(Point other)
+           ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:30: error: ';' expected
+    public static T Min<T>(params T[] items) where T : IComparable<T>
+                       ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:30: error: illegal start of type
+    public static T Min<T>(params T[] items) where T : IComparable<T>
+                          ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:30: error: ',', ')', or '[' expected
+    public static T Min<T>(params T[] items) where T : IComparable<T>
+                                     ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:31: error: illegal start of type
+    {
+    ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:37: error: ';' expected
+    public static T Max<T>(params T[] items) where T : IComparable<T>
+                       ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:37: error: illegal start of type
+    public static T Max<T>(params T[] items) where T : IComparable<T>
+                          ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:37: error: ',', ')', or '[' expected
+    public static T Max<T>(params T[] items) where T : IComparable<T>
+                                     ^
+/home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java:38: error: illegal start of type
+    {
+    ^
+19 errors
+2023.03.16 22:20:10 INFO  time: code lens generation in 2.08s
+2023.03.16 22:24:02 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java
+2023.03.16 22:28:09 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java
+2023.03.16 22:28:12 INFO  time: code lens generation in 2.04s
+2023.03.16 22:31:44 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java
+2023.03.16 22:31:51 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/lesson_1.java
+2023.03.16 22:32:14 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:32:16 INFO  time: code lens generation in 1.8s
+2023.03.16 22:33:02 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:03 INFO  time: code lens generation in 1.85s
+2023.03.16 22:33:07 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:07 WARN  Running javac-semanticdb failed for file:///home/karina/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Java_my_rep./Labolatorium_1/Main.java. Output:
+/home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java:59: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.03.16 22:33:09 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:12 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:13 WARN  Running javac-semanticdb failed for file:///home/karina/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Java_my_rep./Labolatorium_1/Main.java. Output:
+/home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java:58: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.03.16 22:33:13 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:15 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:17 INFO  time: code lens generation in 2.22s
+2023.03.16 22:33:20 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:23 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:33:26 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:35:45 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:35:46 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:35:48 INFO  time: code lens generation in 3.19s
+2023.03.16 22:35:48 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:35:52 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:36:01 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:36:10 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:40:53 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:44:54 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:45:01 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:49:04 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:49:08 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:32 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:34 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:38 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:40 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:42 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:45 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:47 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:50 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:54 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:55 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:50:57 INFO  time: code lens generation in 2.11s
+2023.03.16 22:50:58 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:51:01 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:51:25 WARN  no build target for: /home/karina/Документы/Java_my_rep./Labolatorium_1/Main.java
+2023.03.16 22:51:30 INFO  Shutting down server
+2023.03.16 22:51:30 INFO  shutting down Metals
+2023.03.16 22:51:30 INFO  Exiting server
